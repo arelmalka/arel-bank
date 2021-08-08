@@ -1,8 +1,8 @@
 {
-  "name": "bank-user-mangament",
+  "name": "arel-bank",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://arelmalka.github.io/bank-user-mangament",
+  "homepage": "http://arelmalka.github.io/arel-bank",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
