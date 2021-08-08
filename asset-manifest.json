@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/arel-bank/static/css/main.314d7524.chunk.css",
+    "main.css": "/arel-bank/static/css/main.1842b156.chunk.css",
     "main.js": "/arel-bank/static/js/main.8b31d5f7.chunk.js",
     "main.js.map": "/arel-bank/static/js/main.8b31d5f7.chunk.js.map",
     "runtime-main.js": "/arel-bank/static/js/runtime-main.576cfed0.js",
@@ -10,13 +10,13 @@
     "static/js/3.c4e4df49.chunk.js": "/arel-bank/static/js/3.c4e4df49.chunk.js",
     "static/js/3.c4e4df49.chunk.js.map": "/arel-bank/static/js/3.c4e4df49.chunk.js.map",
     "index.html": "/arel-bank/index.html",
-    "static/css/main.314d7524.chunk.css.map": "/arel-bank/static/css/main.314d7524.chunk.css.map",
+    "static/css/main.1842b156.chunk.css.map": "/arel-bank/static/css/main.1842b156.chunk.css.map",
     "static/js/2.c8aeba4f.chunk.js.LICENSE.txt": "/arel-bank/static/js/2.c8aeba4f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.576cfed0.js",
     "static/js/2.c8aeba4f.chunk.js",
-    "static/css/main.314d7524.chunk.css",
+    "static/css/main.1842b156.chunk.css",
     "static/js/main.8b31d5f7.chunk.js"
   ]
 }
