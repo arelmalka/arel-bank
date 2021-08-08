@@ -213,8 +213,8 @@ th, td {
     position: absolute;
     top: 0;
     color: #878484;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     z-index: 1;
     margin: 3%;
 }
@@ -334,8 +334,8 @@ th, td {
     position: absolute;
     top: 0;
     color: #878484;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     z-index: 1;
     margin: 2.5%;
 }
@@ -368,8 +368,8 @@ th, td {
     position: absolute;
     top: 0;
     color: #878484;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     z-index: 1;
     margin: 1.5%;
 }

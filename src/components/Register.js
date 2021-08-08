@@ -34,7 +34,7 @@ export default function Register(props) {
                     <div className="form-container">
                         <div className="form-input">
                             <Id fontSize="large" className="icon responsiveIcon" />
-                            <input className="register-input responsive" disabled="disabled" type='number' style={{ marginBottom: '1.5%' }} placeholder={props.currentAccount.id} /> <br />
+                            <input className="register-input responsive" disabled="disabled" pattern="[0-9.]" type='number' style={{ marginBottom: '1.5%' }} placeholder={props.currentAccount.id} /> <br />
                         </div>
                         <div className="form-input">
                             <Person fontSize="large" className="icon responsiveIcon" />
@@ -71,7 +71,7 @@ export default function Register(props) {
                         {/* <form className="form"> */}
                         <div className="form-input">
                             <Id fontSize="large" className="icon responsiveIcon" />
-                            <input className="register-input responsive" onChange={(element) => { setid(element.target.value) }} type='number' style={{ marginBottom: '1.5%' }} placeholder="ID" textField /> <br />
+                            <input className="register-input responsive" onChange={(element) => { setid(element.target.value) }} pattern="[0-9.]" type='number' style={{ marginBottom: '1.5%' }} placeholder="ID" textField /> <br />
                         </div>
                         <div className="form-input">
                             <Person fontSize="large" className="icon responsiveIcon" />
@@ -93,6 +93,9 @@ export default function Register(props) {
                     </div>
                     {/* </div> */}
                     <button className="logIn" onClick={() => { validNewAccount() }} >Create</button>
+                    <Link to={'/'}>
+                        <button className="logIn" style={{ marginLeft: "5%" }}>Back</button>
+                    </Link>
                 </div>
             )
         }
